@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="../reset.css">
+  <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>A.Skirnevskaia - JS Front-End Developer</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <ul class="lang-switcher noselect">
+        <li class="lang__item lang__item_active">RU</li>
+        <li class="lang__item lang__item-separator">/</li>
+        <li class="lang__item"><a class="lang__link" href="../en/index.html">EN</a></li>
+      </ul>
+
+      <div class="header__applicant-info">
+        <h1 class="header__applicant-name">Александра Скирневская</h1>
+        <h1 class="header__applicant-job">Junior Front-End Developer</h1>
+      </div>
+      <img class="header__applicant-photo" src="../assets/avatar.png" alt="applicant-photo Front-End Developer">
+
+    </header>
+
+    <main class="main-block">
+      <section class="contact section">
+        <h3 class="heading-like">Контакты</h3>
+        <ul class="ul-list">
+          <li class="list-item"><span class="font-awesome-wrapper"><i class="fas fa-map-marked-alt"></i></span>Москва,
+            Россия</li>
+          <li class="list-item"><span class="font-awesome-wrapper"><i class="fas fa-mobile-alt"></i></span>Тел.:
+            <a class="ml10" href="tel:+7(977)145-67-16">+7(977)145-67-16</a></li>
+          <li class="list-item">
+            <span class="font-awesome-wrapper"><i class="fas fa-envelope-open-text"></i></span>
+            E-mail:
+            <a class="ml10" href="mailto: a.skirnevskaia@gmail.com">a.skirnevskaia@gmail.com</a>
+          </li>
+          <li class="list-item">
+            <span class="font-awesome-wrapper"><i class="fab fa-github-square"></i></span>
+            Github:
+            <a class="ml10" href="https://github.com/AlexSkir" target="_blank" rel="noopener noreferrer">AlexSkir</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="summary section">
+        <h3 class="heading-like">О себе</h3>
+        <p>
+          Начинающий фронт-енд разработчик, с небольшим опытом комерческой разработки, преимущественно связанным
+          с адаптивной и кроссбраузерной версткой сайтов. Есть навыки написания JavaScript кода
+          (pure JS, JQuery, React) по стандартам ES6/ES2015, применения препроцессоров CSS (Sass/Less),
+          библиотек стилей (Material-UI, Bootstrap).
+        </p>
+      </section>
+
+      <section class="skills section">
+        <h3 class="heading-like">Навыки</h3>
+        <ul class="ul-list">
+          <li class="list-item list_marker_square">
+            <span class="skill__heading sub-heading">Web-разработка:</span> HTML/CSS/SASS (фиксированная, резиновая,
+            адаптивная, отзывчивая верстка), JavaScript (JQuery, React/Redux, Bootstrap, Material-UI)
+          </li>
+          <li class="list-item list_marker_square">
+            <span class="skill__heading sub-heading">Дизайн:</span> Adobe Photoshop, Zeplin, Figma
+          </li>
+          <li class="list-item list_marker_square">
+            <span class="skill__heading sub-heading">Контроль версий:</span> GIT, Github
+          </li>
+          <li class="list-item list_marker_square">
+            <span class="skill__heading sub-heading">Иностранные языки:</span> Английский
+            <span class="skill__sertificate sertificate link">
+              <span onclick="fullscreenModeOn('ielts.jpg')">(IELTS 7.0 - C1)</span>
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="education section">
+        <h3 class="heading-like">Образование</h3>
+        <p>
+          <a href="https://tusur.ru/" target="_blank">
+            Томский государственный университет систем управления и радиоэлектроники
+          </a>
+          (неоконченное высшее)
+        </p>
+      </section>
+
+      <section class="courses section">
+        <h3 class="heading-like">Курсы</h3>
+        <ul class="ul-list">
+          <li class="list-item list_marker_square">
+            <a href="https://www.codecademy.com/catalog/subject/all" target="_blank">Codecademy</a>
+            - CSS, HTML, React
+          </li>
+          <li class="list-item list_marker_square">
+            <a href="https://rs.school/" target="_blank">Rolling Scopes School</a> - JavaScript разработчик
+            <span class="courses__sertificate sertificate link">
+              <span onclick="fullscreenModeOn('RSS.png')">(сертификат)</span>
+            </span>
+          </li>
+          <li class="list-item list_marker_square">
+            <a href="https://www.codewars.com/users/AlexSkir/stats" target="_blank">Codewars</a>
+            - JavaScript
+          </li>
+        </ul>
+      </section>
+
+      <section class="portfolio section bb-none">
+        <h3 class="heading-like">Портфолио</h3>
+        <div class="portfolio__training-projects">
+          <h4 class="sub-heading">Примеры работ</h4>
+          <ul class="ul-list portfolio_web">
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Fesco</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/restaurant-fesco"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/restaurant-fesco/"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/fesco.png" alt="fesco screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">HTML/SASS</li>
+                    <li class="portfolio__list-item">JS</li>
+                    <li class="portfolio__list-item">Отзывчивая верстка</li>
+                    <li class="portfolio__list-item">Кроссбраузерная верстка</li>
+                    <li class="portfolio__list-item">Perfect Pixel</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    HTML/SASS, JS, Отзывчивая верстка, Кроссбраузерная верстка, Perfect Pixel</div>
+                  <span class="portfolio__description">
+                    Ресторан Fesco - одностраничный сайт, содержащий информацию о ресторане, меню, контактную
+                    информацию, форму для бронирования посещения.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Alexis</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/alexis-homepage"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/alexis-homepage/"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/alexis.png" alt="Alexis screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">HTML/CSS</li>
+                    <li class="portfolio__list-item">JS</li>
+                    <li class="portfolio__list-item">Отзывчивая верстка</li>
+                    <li class="portfolio__list-item">Кроссбраузерная верстка</li>
+                    <li class="portfolio__list-item">Perfect Pixel</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    HTML/CSS, JS, Отзывчивая верстка, Кроссбраузерная верстка, Perfect Pixel</div>
+                  <span class="portfolio__description">
+                    Alexis - домашняя страница, разработана как визитная карточка фирмы. Содержит скрипт для
+                    обработки событий (on hover, on click).
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Hexal</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/hexal/tree/gh-pages"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/hexal/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/hexal.jpg" alt="hexal screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">HTML/CSS</li>
+                    <li class="portfolio__list-item">Фиксированная верстка</li>
+                    <li class="portfolio__list-item">Кроссбраузерная верстка</li>
+                    <li class="portfolio__list-item">Perfect Pixel</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    HTML/CSS, Фиксированная верстка, Кроссбраузерная верстка, Perfect Pixel</div>
+                  <span class="portfolio__description">
+                    Hexal - одностраничный сайт (портфолио).
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">NeutronMail</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio"
+                      href="https://github.com/AlexSkir/NeutronMail/tree/gh-pages/NeutronMail" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/NeutronMail/NeutronMail/"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/neutron.png" alt="NeutronMail screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">HTML/CSS</li>
+                    <li class="portfolio__list-item">Perfect Pixel</li>
+                    <li class="portfolio__list-item">Адаптивная верстка</li>
+                    <li class="portfolio__list-item">Кроссбраузерная верстка</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    HTML/CSS, Адаптивная верстка, Кроссбраузерная верстка, Perfect Pixel</div>
+                  <span class="portfolio__description">
+                    Neutron - лэндинг почтового клиента, сделан по PSD шаблону.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">YouTube App</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/shitapp/tree/gh-pages"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/shitapp/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/youtube.png" alt="YouTube-app screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">HTML/CSS</li>
+                    <li class="portfolio__list-item">Отзывчивая верстка</li>
+                    <li class="portfolio__list-item">Pure JS</li>
+                    <li class="portfolio__list-item">AJAX</li>
+                    <li class="portfolio__list-item">Webpack</li>
+                    <li class="portfolio__list-item">Babel</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    HTML/CSS, Отзывчивая верстка, Pure JS, AJAX, Webpack, Babel</div>
+                  <span class="portfolio__description">
+                    Веб приложение на чистом JS для поиска YouTube контента по ключевым словам с использованием
+                    AJAX-запросов, YouTube API.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Piskel Clone</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/clown/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="http://AlexSkir.github.io/clown/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/piskel.jpg" alt="Piskel Clone screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">React/Redux</li>
+                    <li class="portfolio__list-item">jQuery</li>
+                    <li class="portfolio__list-item">Canvas</li>
+                    <li class="portfolio__list-item">Google API</li>
+                    <li class="portfolio__list-item">Firebase DB</li>
+                    <li class="portfolio__list-item">SPA</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    React/Redux, jQuery, Canvas, Google API, Firebase DB, SPA</div>
+                  <span class="portfolio__description">
+                    Упрощенная копия приложения Piskel, веб-инструмент для создания анимаций.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Culture Portal</div>
+                  <div class="portfolio__item-links">
+                    <div class="portfolio__two-links">
+                      <a class="link_code link_portfolio" href="https://github.com/AlexSkir/RSS-group10-gatsbyNetlify"
+                        target="_blank" rel="noopener noreferrer">
+                        Gatsby<span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                      </a>
+                      <a class="link_code link_portfolio" href="https://github.com/AlexSkir/CodeJam-Culture-Portal"
+                        target="_blank" rel="noopener noreferrer">
+                        React<span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                      </a>
+                    </div>
+                    <a class="link_web link_portfolio" href="https://rss-group10-photographers.netlify.com/"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/culturePortal.png" alt="Culture Portal screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">React/Redux</li>
+                    <li class="portfolio__list-item">Gatsby</li>
+                    <li class="portfolio__list-item">Google API</li>
+                    <li class="portfolio__list-item">I18N Internationalization</li>
+                    <li class="portfolio__list-item">Material-UI</li>
+                    <li class="portfolio__list-item">SPA</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    React/Redux, Gatsby, Google API, I18N Internationalization, Material Design UI, SPA</div>
+                  <span class="portfolio__description">
+                    Веб портал о культуре Беларусии, разработан на React JS и Gatsby как групповой проект.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">Awesome Chat</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio" href="https://github.com/AlexSkir/chat/tree/project"
+                      target="_blank" rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://alexskir.github.io/chat/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <img class="portfolio__screenshot" src="../assets/chat.jpg" alt="Awesome Chat screenshot">
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">React/Redux</li>
+                    <li class="portfolio__list-item">WebSocket</li>
+                    <li class="portfolio__list-item">Push Notifications</li>
+                    <li class="portfolio__list-item">Responsive Layout</li>
+                    <li class="portfolio__list-item">Bootstrap</li>
+                    <li class="portfolio__list-item">Material-UI</li>
+                    <li class="portfolio__list-item">SPA</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    React/Redux, WebSocket, Push Notifications, Responsive Layout, Bootstrap, Material-UI, SPA
+                  </div>
+                  <span class="portfolio__description">
+                    Простое чат-приложение, разработанное на React JS с использованием веб-сокета. Дизайн реализован
+                    с применением Bootstrap и Material-UI.
+                  </span>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="portfolio__freelance-projects">
+          <h4 class="sub-heading">Фриланс</h4>
+          <ul class="ul-list portfolio__web">
+            <li class="list-item portfolio__item">
+              <div class="portfolio__item-wrapper">
+                <div class="portfolio__item-header">
+                  <div class="portfolio__item-name link_info link_portfolio">GoFuckBiz.com</div>
+                  <div class="portfolio__item-links">
+                    <a class="link_code link_portfolio"
+                      href="https://github.com/AlexSkir/gofuck/blob/master/wireless_css.txt" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+                    </a>
+                    <a class="link_web link_portfolio" href="https://www.gofuckbiz.com/" target="_blank"
+                      rel="noopener noreferrer">
+                      <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio__item-content">
+                  <div class="portfolio__mobile-screenshots">
+                    <img class="portfolio__screenshot-sm" src="../assets/gofuck1.png" alt="GoFuckBiz.com screenshot">
+                    <img class="portfolio__screenshot-sm" src="../assets/gofuck2.png" alt="GoFuckBiz.com screenshot">
+                    <img class="portfolio__screenshot-sm display-none-sm" src="../assets/gofuck3.png"
+                      alt="GoFuckBiz.com screenshot">
+                  </div>
+                  <ul class="portfolio__ul">
+                    <li class="portfolio__list-item">CSS Design Patterns</li>
+                    <li class="portfolio__list-item">Mobile Layout</li>
+                  </ul>
+                  <div class="portfolio__features_sm"><span class="portfolio__features-title">Технологии:</span>
+                    CSS Design Patterns, Mobile Layout</div>
+                  <span class="portfolio__description">
+                    Forum of successful webmasters - GoFuckBiz.com. Основная задача - адаптация wireless CSS
+                    под мобильные устройства.
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="experience section bb-none">
+        <h3 class="heading-like">Опыт работы</h3>
+        <div class="experience__unit">
+          <p class="experience__heading sub-heading">Учебные проекты</p>
+          <p class="experience__dates">Февраль 2019 &ndash; Август 2020</p>
+          <ul class="ul-list experience__list">
+            <li class="list-item list_marker_square">Разработано 10+ веб-страниц с применением фиксированной,
+              адаптивной и отзывчивой верстки по PSD и Sketch шаблонам.
+            </li>
+            <li class="list-item list_marker_square">Реализован Front-end для 4 SPA, с использованием pure JS,
+              jQuery, AJAX, React, Bootstrap, Material-UI
+            </li>
+            <li class="list-item list_marker_square">Разработка веб-приложений как самостоятельно, так и в
+              команде
+            </li>
+          </ul>
+        </div>
+        <div class="experience__unit">
+          <p class="experience__heading sub-heading">Фриланс веб-разработчик</p>
+          <p class="experience__dates">Октябрь 2019 &ndash; Декабрь 2019</p>
+          <ul class="ul-list experience__list">
+            <li class="list-item list_marker_square">Адаптация wireless CSS под мобильные устройства</li>
+          </ul>
+        </div>
+      </section>
+
+      <div id="fullscreen-mode-block" class="fullscreen-mode-block">
+        <div class="fullscreen__image-wrapper">
+          <button class="fullscreen__button" type="button" onclick="closeFullscreen()">X</button>
+          <img class="fullscreen__image" src="" alt="screenshot" id="fullscreen-image">
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <div class="pagebreak"></div>
+
+  <div class="print">
+    <h3 class="heading-like">Портфолио</h3>
+    <div class="portfolio__training-projects">
+      <h4 class="sub-heading">Образцы работ</h4>
+      <ul class="ul-list portfolio_print">
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Fesco</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            HTML/SASS, JS, Responsive Layout, Cross-browser Layout, Perfect Pixel</div>
+
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/restaurant-fesco" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/restaurant-fesco
+            </a>
+            <a class="link_portfolio" href="https://alexskir.github.io/restaurant-fesco/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir.github.io/restaurant-fesco/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Alexis</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            HTML/CSS, JS, Responsive Layout, Cross-browser Layout, Perfect Pixel</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/alexis-homepage" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/alexis-homepage
+            </a>
+            <a class="link_portfolio" href="https://alexskir.github.io/alexis-homepage/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir.github.io/alexis-homepage/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Hexal</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            HTML/CSS, Static Layout, Cross-browser Layout, Perfect Pixel</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/hexal/tree/gh-pages" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/hexal/tree/gh-pages
+            </a>
+            <a class="link_portfolio" href="https://alexskir.github.io/hexal/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir.github.io/hexal/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">NeutronMail</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            HTML/CSS, Adaptive Layout, Cross-browser Layout, Perfect Pixel</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/NeutronMail/tree/gh-pages/NeutronMail"
+              target="_blank" rel="noopener noreferrer">
+              <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/NeutronMail/tree/gh-pages/NeutronMail
+            </a>
+            <a class="link_portfolio" href="https://alexskir.github.io/NeutronMail/NeutronMail/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir.github.io/NeutronMail/NeutronMail/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">YouTube App</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            HTML/CSS, Responsive Layout, Pure JS, AJAX, JS DOM manipulation, Webpack, Babel</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/shitapp/tree/gh-pages" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/shitapp/tree/gh-pages
+            </a>
+            <a class="link_portfolio" href="https://alexskir.github.io/shitapp/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir.github.io/shitapp/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Piskel Clone</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            React/Redux, jQuery, Canvas, Google API, Firebase DB, SPA</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/clown/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/clown/
+            </a>
+            <a class="link_portfolio" href="http://AlexSkir.github.io/clown/" target="_blank" rel="noopener noreferrer">
+              <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              http://AlexSkir.github.io/clown/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Culture Portal</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            React/Redux, Gatsby, Google API, I18N Internationalization, Material-UI, SPA</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <i>Gatsby:</i>
+            <a class="link_portfolio" href="https://github.com/AlexSkir/RSS-group10-gatsbyNetlify" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/RSS-group10-gatsbyNetlify
+            </a>
+            <i>React:</i>
+            <a class="link_portfolio" href="https://github.com/AlexSkir/CodeJam-Culture-Portal" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/CodeJam-Culture-Portal
+            </a>
+            <a class="link_portfolio" href="https://rss-group10-photographers.netlify.com/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://rss-group10-photographers.netlify.com/
+            </a>
+          </div>
+        </li>
+
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">Awesome Chat</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            React/Redux, WebSocket, Push Notifications, Responsive Layout, Bootstrap, Material-UI, SPA</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/chat/tree/project" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/chat/tree/project
+            </a>
+            <a class="link_portfolio" href="https://alexskir-awesome-chat.herokuapp.com/" target="_blank"
+              rel="noopener noreferrer"><span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://alexskir-awesome-chat.herokuapp.com/
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="portfolio__freelance-projects">
+      <h4 class="sub-heading">Freelance Projects</h4>
+      <ul class="ul-list portfolio_print">
+        <li class="portfolio_list-item list-item list_marker_square">
+          <div class="portfolio_print__item-name link">GoFuckBiz.com</div>
+          <div class="portfolio__features"><span class="portfolio__features-title">Технологии:</span>
+            CSS Design Patterns, Mobile Layout</div>
+          <div class="portfolio__item-links portfolio_print__item-links">
+            <a class="link_portfolio" href="https://github.com/AlexSkir/gofuck/blob/master/wireless_css.txt"
+              target="_blank" rel="noopener noreferrer">
+              <span class="font-awesome-wrapper"><i class="fas fa-code"></i></span>
+              https://github.com/AlexSkir/gofuck/blob/master/wireless_css.txt
+            </a>
+            <a class="link_portfolio" href="https://www.gofuckbiz.com/" target="_blank" rel="noopener noreferrer">
+              <span class="font-awesome-wrapper"><i class="fas fa-globe"></i></span>
+              https://www.gofuckbiz.com/
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    const fullscreenBlock = document.getElementById('fullscreen-mode-block');
+    const fullscreenImage = document.getElementById('fullscreen-image');
+    function fullscreenModeOn(image) {
+      fullscreenImage.src = `../assets/${image}`;
+      fullscreenBlock.style.display = 'flex';
+      if (fullscreenImage.width > fullscreenImage.height) {
+        fullscreenImage.classList.add('fill-width');
+      } else {
+        fullscreenImage.classList.add('fill-height');
+      }
+    }
+    function closeFullscreen() {
+      fullscreenImage.src = '';
+      fullscreenImage.className = '';
+      fullscreenBlock.style.display = 'none';
+    }
+
+    const projects = Array.from(document.getElementsByClassName('portfolio__item'));
+    projects.forEach(item => item.addEventListener('click', e => {
+      console.log(e.target)
+      if (e.target.tagName.toLowerCase() === 'div') {
+        e.currentTarget.classList.toggle('portfolio_open');
+      }
+    }
+    ));
+  </script>
+</body>
+
+</html>
