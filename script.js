@@ -47,7 +47,6 @@ $(document).ready(function () {
   }
 
   $('.portfolio__item').on('click', function (e) {
-    e.preventDefault();
     if ($(e.target).hasClass('portfolio__item-header')
       || $(e.target).hasClass('portfolio__item')
       || $(e.target).hasClass('portfolio__item-name')) {
