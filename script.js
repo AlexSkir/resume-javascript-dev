@@ -2,7 +2,8 @@ $(document).ready(function () {
 
   var path = window.location.href;
   $('a.lang__link').each(function (i, elem) {
-    if (elem.href === path) {
+    var shortHref = elem.href.split('index.html')[0];
+    if (elem.href === path || shortHref === path) {
       $(elem).addClass('lang__item_active');
     }
   });
