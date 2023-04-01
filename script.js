@@ -47,18 +47,11 @@ $(document).ready(function () {
   }
 
   $('.portfolio__item').on('click', function (e) {
+    e.preventDefault();
     if ($(e.target).hasClass('portfolio__item-header')
       || $(e.target).hasClass('portfolio__item')
       || $(e.target).hasClass('portfolio__item-name')) {
-      if ($(e.currentTarget).hasClass('portfolio_open')) {
-        $(e.currentTarget).removeClass('portfolio_open');
-        $(e.currentTarget).find('.portfolio__item-wrapper').removeClass('slide-in');
-        $(e.currentTarget).find('.portfolio__item-wrapper').addClass('slide-out');
-      } else {
-        $(e.currentTarget).addClass('portfolio_open');
-        $(e.currentTarget).find('.portfolio__item-wrapper').addClass('slide-in');
-        $(e.currentTarget).find('.portfolio__item-wrapper').removeClass('slide-out');
-      }
+      $(e.currentTarget).toggleClass('portfolio_open');
     }
   });
 })
