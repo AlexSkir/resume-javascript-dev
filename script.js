@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
   var path = window.location.href;
