@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="../script.js"></script>
+  <script src="../dist/script.js"></script>
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="../reset.css">
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
@@ -20,22 +19,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>A.Skirnevskaia - JS Front-End Developer</title>
   <!-- Google tag (gtag.js) -->
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-PL6X332DWP"></script>
-
   <script>
-
     window.dataLayer = window.dataLayer || [];
-
-    function gtag(){dataLayer.push(arguments);}
-
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-PL6X332DWP');
-
   </script>
 </head>
-
 
 <body>
   <div class="container">
@@ -96,7 +87,7 @@
             <div class="skill__item skill_star five-star">JavaScript, JQuery</div>
             <div class="skill__item skill_star three-star">React/Redux</div>
             <div class="skill__item skill_star two-star">
-              <a href="https://github.com/AlexSkir/alexskir-reactplate" class="portfolio_project_link" target="_blank"
+              <a href="https://www.npmjs.com/package/alexskir-reactplate" class="portfolio_project_link" target="_blank"
                 rel="noopener noreferrer">Webpack, Babel</a>
             </div>
             <div class="skill__item skill_star one-star">PHP (WordPress)</div>
@@ -544,38 +535,29 @@
       </section>
 
       <section class="experience section ">
-        <h3 class="heading-like">Work experience</h3>
-        <div class="experience__unit">
-          <p class="experience__heading sub-heading">Training Projects from Rolling Scopes School</p>
-          <p class="experience__dates">Feb 2019 &ndash; Aug 2019</p>
-          <ul class="ul-list experience__list">
-            <li class="list-item list_marker_square">Worked independently and as a team member</li>
-            <li class="list-item list_marker_square">Designed 10+ Static, Adaptive and Responsive Design based
-              on PSD & Sketch templates
-            </li>
-            <li class="list-item list_marker_square">Developed Front-end for 4 SPA, using pure JS, jQuery, AJAX, React,
-              Bootstrap, Material-UI
-            </li>
-            <li class="list-item list_marker_square">Created interactive Chat Application using WebSocket & React</li>
-            <li class="list-item list_marker_square">Integrated Google, Youtube, Firebase APIs</li>
-            <li class="list-item list_marker_square">Implemented app Internationalization</li>
-          </ul>
-        </div>
+        <h3 class="heading-like">Work experience <span id="total_work_exp"></span></h3>
 
         <div class="experience__unit">
           <p class="experience__heading sub-heading">Freelance Web Developer</p>
-          <p class="experience__dates">Oct 2019 &ndash; Dec 2019</p>
+
+          <p class="experience__dates">
+            <span class="date_start">Nov 2021</span> &ndash;
+            <span class="date_end">Dec 2022</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
-              <a href="https://www.gofuckbiz.com/" target="_blank">GoFuckBiz.com</a> - is a forum of successful
-              webmasters.
+              Maintaining the front-end for small projects
             </li>
-            <li class="list-item list_marker_square">Created a mobile responsive design with Wireless CSS</li>
-            <li class="list-item list_marker_square">Handled cross-browser compatibility of the
-              website for any devices with an emphasis on a mobile layout</li>
+            <li class="list-item list_marker_square">Adding buttons, fixing design, refactoring
+            </li>
           </ul>
 
-          <p class="experience__dates">Jul 2020 &ndash; Aug 2021</p>
+          <p class="experience__dates">
+            <span class="date_start">Jul 2020</span> &ndash;
+            <span class="date_end">Aug 2021</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
               <a href="http://d97714j6.beget.tech/" target="_blank">Gritella lingereie</a> - is an online store of
@@ -599,13 +581,40 @@
               (social networks, google, etc), order management, personal discount, gift cards, etc.</li>
           </ul>
 
-          <p class="experience__dates">Nov 2021 &ndash; Dec 2022</p>
+          <p class="experience__dates">
+            <span class="date_start">Oct 2019</span> &ndash;
+            <span class="date_end">Dec 2019</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
-              Maintaining the front-end for small projects
+              <a href="https://www.gofuckbiz.com/" target="_blank">GoFuckBiz.com</a> - is a forum of successful
+              webmasters.
             </li>
-            <li class="list-item list_marker_square">Adding buttons, fixing design, refactoring
+            <li class="list-item list_marker_square">Created a mobile responsive design with Wireless CSS</li>
+            <li class="list-item list_marker_square">Handled cross-browser compatibility of the
+              website for any devices with an emphasis on a mobile layout</li>
+          </ul>
+        </div>
+
+        <div class="experience__unit">
+          <p class="experience__heading sub-heading">Training Projects from Rolling Scopes School</p>
+          <p class="experience__dates">
+            <span class="date_start">Feb 2019</span> &ndash;
+            <span class="date_end">Aug 2019</span>
+            <span class="total_work_exp_item"></span>
+          </p>
+          <ul class="ul-list experience__list">
+            <li class="list-item list_marker_square">Worked independently and as a team member</li>
+            <li class="list-item list_marker_square">Designed 10+ Static, Adaptive and Responsive Design based
+              on PSD & Sketch templates
             </li>
+            <li class="list-item list_marker_square">Developed Front-end for 4 SPA, using pure JS, jQuery, AJAX, React,
+              Bootstrap, Material-UI
+            </li>
+            <li class="list-item list_marker_square">Created interactive Chat Application using WebSocket & React</li>
+            <li class="list-item list_marker_square">Integrated Google, Youtube, Firebase APIs</li>
+            <li class="list-item list_marker_square">Implemented app Internationalization</li>
           </ul>
         </div>
       </section>

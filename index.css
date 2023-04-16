@@ -788,6 +788,13 @@ a:hover {
   margin-left: 20px;
 }
 
+#total_work_exp {
+  text-transform: lowercase;
+  letter-spacing: 0;
+  color: #a6c1ad;
+  font-weight: 300;
+}
+
 /*#endregion*/
 /*#region-----------------------------------full screen-------------------------------------*/
 .fullscreen-mode-block {

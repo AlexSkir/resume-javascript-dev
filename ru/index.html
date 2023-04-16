@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-  <script src="../script.js"></script>
+  <script src="../dist/script.js"></script>
   <link rel="stylesheet" href="../index.css">
   <link rel="stylesheet" href="../reset.css">
   <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
@@ -18,26 +17,17 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <title>A.Skirnevskaia - JS Front-End Developer</title>
+  <title>А.Скирневская - JS Front-End Developer</title>
   <!-- Google tag (gtag.js) -->
-
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TZN4CM3FPY"></script>
-
   <script>
-
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag(){dataLayer.push(arguments);}
-
-  gtag('js', new Date());
-
-  gtag('config', 'G-TZN4CM3FPY');
-
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-TZN4CM3FPY');
   </script>
 </head>
 
-
-  
 <body>
   <div class="container">
     <header class="header">
@@ -97,7 +87,7 @@
             <div class="skill__item skill_star five-star">JavaScript, JQuery</div>
             <div class="skill__item skill_star three-star">React/Redux</div>
             <div class="skill__item skill_star two-star">
-              <a href="https://github.com/AlexSkir/alexskir-reactplate" class="portfolio_project_link" target="_blank"
+              <a href="https://www.npmjs.com/package/alexskir-reactplate" class="portfolio_project_link" target="_blank"
                 rel="noopener noreferrer">Webpack, Babel</a>
             </div>
             <div class="skill__item skill_star one-star">PHP (WordPress)</div>
@@ -543,40 +533,29 @@
       </section>
 
       <section class="experience section">
-        <h3 class="heading-like">Опыт работы</h3>
-        <div class="experience__unit">
-          <p class="experience__heading sub-heading">Учебные проекты из программы Rolling Scopes School</p>
-          <p class="experience__dates">Февраль 2019 &ndash; Август 2019</p>
-          <ul class="ul-list experience__list">
-            <li class="list-item list_marker_square">Разработка веб-страниц (визитки, лэндинги) с применением
-              фиксированной,
-              адаптивной и отзывчивой верстки по PSD и Sketch шаблонам.
-            </li>
-            <li class="list-item list_marker_square">Разработка Front-end для SPA, с использованием pure JS,
-              jQuery, AJAX, React, Bootstrap, Material-UI
-            </li>
-            <li class="list-item list_marker_square">Работа в командных проектах и самостоятельно
-            </li>
-            <li class="list-item list_marker_square">Разработка чат-приложения с использованием WebSocket & React</li>
-            <li class="list-item list_marker_square">Интеграция Google, Youtube, Firebase APIs</li>
-            <li class="list-item list_marker_square">Интернационализация веб приложения</li>
-          </ul>
-        </div>
+        <h3 class="heading-like">Опыт работы <span id="total_work_exp"></span></h3>
 
         <div class="experience__unit">
           <p class="experience__heading sub-heading">Фриланс веб-разработчик</p>
-          <p class="experience__dates">Октябрь 2019 &ndash; Декабрь 2019</p>
+
+          <p class="experience__dates">
+            <span class="date_start">Ноябрь 2021</span> &ndash;
+            <span class="date_end">Декабрь 2022</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
-              <a href="https://www.gofuckbiz.com/" target="_blank">GoFuckBiz.com</a> - форум успешных вебмастеров.
+              Поддержка front-end на мелких проектах
             </li>
-            <li class="list-item list_marker_square">Создание мобильной отзывчивой верстки с использованием wireless CSS
-            </li>
-            <li class="list-item list_marker_square">Кроссбраузерная верстка, обеспецивающая доступ
-              к вебсайту с различных устройств, с уклоном на мобильные устройства
+            <li class="list-item list_marker_square">Добавление кнопок, изменение стилей, рефакторинг
             </li>
           </ul>
-          <p class="experience__dates">Июль 2020 &ndash; Август 2021</p>
+
+          <p class="experience__dates">
+            <span class="date_start">Июль 2020</span> &ndash;
+            <span class="date_end">Август 2021</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
               <a href="http://d97714j6.beget.tech/" target="_blank">Gritella lingereie</a> - онлайн магазин нижнего
@@ -601,13 +580,44 @@
               логина через различные системы (социальные сети, гугл и тд), управление заказами, применение
               персональной скидки, подарочных карт и тд.</li>
           </ul>
-          <p class="experience__dates">Ноябрь 2021 &ndash; Декабрь 2022</p>
+
+          <p class="experience__dates">
+            <span class="date_start">Октябрь 2019</span> &ndash;
+            <span class="date_end">Декабрь 2019</span>
+            <span class="total_work_exp_item"></span>
+          </p>
           <ul class="ul-list experience__list">
             <li class="list-item list_title">
-              Поддержка front-end на мелких проектах
+              <a href="https://www.gofuckbiz.com/" target="_blank">GoFuckBiz.com</a> - форум успешных вебмастеров.
             </li>
-            <li class="list-item list_marker_square">Добавление кнопок, изменение стилей, рефакторинг
+            <li class="list-item list_marker_square">Создание мобильной отзывчивой верстки с использованием wireless CSS
             </li>
+            <li class="list-item list_marker_square">Кроссбраузерная верстка, обеспецивающая доступ
+              к вебсайту с различных устройств, с уклоном на мобильные устройства
+            </li>
+          </ul>
+        </div>
+
+        <div class="experience__unit">
+          <p class="experience__heading sub-heading">Учебные проекты из программы Rolling Scopes School</p>
+          <p class="experience__dates">
+            <span class="date_start">Февраль 2019</span> &ndash;
+            <span class="date_end">Август 2019</span>
+            <span class="total_work_exp_item"></span>
+          </p>
+          <ul class="ul-list experience__list">
+            <li class="list-item list_marker_square">Разработка веб-страниц (визитки, лэндинги) с применением
+              фиксированной,
+              адаптивной и отзывчивой верстки по PSD и Sketch шаблонам.
+            </li>
+            <li class="list-item list_marker_square">Разработка Front-end для SPA, с использованием pure JS,
+              jQuery, AJAX, React, Bootstrap, Material-UI
+            </li>
+            <li class="list-item list_marker_square">Работа в командных проектах и самостоятельно
+            </li>
+            <li class="list-item list_marker_square">Разработка чат-приложения с использованием WebSocket & React</li>
+            <li class="list-item list_marker_square">Интеграция Google, Youtube, Firebase APIs</li>
+            <li class="list-item list_marker_square">Интернационализация веб приложения</li>
           </ul>
         </div>
       </section>

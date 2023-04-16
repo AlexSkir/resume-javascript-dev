@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-transform-arrow-functions": "^7.20.7",
+    "@babel/plugin-transform-template-literals": "^7.18.9",
+    "@babel/preset-env": "^7.21.4",
+    "babel-preset": "^1.1.7"
+  },
+  "scripts": {
+    "transpile": "babel ./script.js -d dist"
+  },
+  "main": "script.js",
+  "babel": {
+    "plugins": [
+      "@babel/plugin-transform-arrow-functions",
+      "@babel/plugin-transform-template-literals"
+    ]
+  },
+  "devDependencies": {
+    "@babel/register": "^7.21.0"
+  }
+}
