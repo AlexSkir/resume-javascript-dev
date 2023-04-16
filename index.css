@@ -1165,10 +1165,10 @@ body.UCBrowser {
       "education experience";
   }
 
-  .pagebreak {
+  /* .pagebreak {
     clear: both;
     page-break-after: always;
-  }
+  } */
 
   .print {
     display: block;
