@@ -513,11 +513,11 @@ a:hover {
 }
 
 .skill__sertificate::after {
-  background-image: url(./assets/ielts.jpg);
+  background-image: url(./assets/ielts.webp);
 }
 
 .courses__sertificate::after {
-  background-image: url(./assets/RSS.png);
+  background-image: url(./assets/RSS.webp);
 }
 
 .courses__sertificate:hover::after {
